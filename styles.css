@@ -27,6 +27,7 @@ h1{
     z-index: 10;
     background: transparent;
     transition: all 0.3s ease;
+    width: 100%;
 }
 
 .header-section::before{
@@ -41,7 +42,7 @@ h1{
 }
 
 .header-section{
-    position: sticky;
+    position: fixed;
     top:0;
     animation: nav-background linear both;
     animation-timeline: scroll(root);
